@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        #hit {
+            width: 1000px;
+            height: 350px;
+            margin: 10px auto 0;
+            border: 1px solid #222;
+        }
+
+        #hit>h3 {
+            font-size: 20px;
+            text-align: center;
+            color: green;
+            line-height: 50px;
+            letter-spacing: 5px;
+        }
+
+        #hit>p {
+            font-size: 16px;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        #hit>.product {
+            width: 150px;
+            height: 220px;
+            margin: 30px 22px;
+            float: left;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        #hit>.product:hover {
+            box-shadow: 4px 4px 4px #ddd;
+        }
+
+        #hit>.product>a>img {
+            width: 100%;
+            height: 150px;
+            border-radius: 15px;
+        }
+
+        #hit>.product>h4>a {
+            font-size: 14px;
+        }
+
+        #hit>.product>span>a {
+            font-size: 12px;
+        }
+
+
+        #new {
+            width: 1000px;
+            height: 700px;
+            margin: 10px auto 0;
+            border: 1px solid #222;
+        }
+
+        #new>h3 {
+            font-size: 20px;
+            text-align: center;
+            color: green;
+            line-height: 50px;
+            letter-spacing: 5px;
+        }
+
+        #new>p {
+            font-size: 16px;
+            text-align: center;
+            line-height: 20px;
+        }
+
+        #new>.product {
+            width: 200px;
+            height: 280px;
+            margin: 20px 20px;
+            float: left;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        #new>.product:hover {
+            box-shadow: 4px 4px 4px #ddd;
+        }
+
+        #new>.product>a>img {
+            width: 100%;
+            height: 200px;
+            border-radius: 15px;
+        }
+
+        #new>.product>h4>a {
+            font-size: 14px;
+
+        }
+
+        #new>.product>span>a {
+            font-size: 12px;
+        }
+        
+        #new>.product>span>a:after  {
+            content: "신상품";
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 실시간 베스트 -->
+
+    <div id="hit">
+        <h3>실시간 베스트</h3>
+        <p>현재 실시간 베스트 상품</p>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail7.coupangcdn.com/thumbnails/remote/320x320ex/image/vendor_inventory/a90b/6ba84a7261f3f8e96d26f978d6a03e314cf6528a1ba9772f91a6e170754a.jpg"
+                    alt="니트"></a>
+            <h4><a href="#">니트</a></h4>
+            <span><a href="#">40000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/995783236244040-30101680-da4b-4578-a398-9a473bcb090c.jpg"
+                    alt="맨투맨"></a>
+            <h4><a href="#">맨투맨</a></h4>
+            <span><a href="#">30000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail7.coupangcdn.com/thumbnails/remote/320x320ex/image/vendor_inventory/a90b/6ba84a7261f3f8e96d26f978d6a03e314cf6528a1ba9772f91a6e170754a.jpg"
+                    alt="니트"></a>
+            <h4><a href="#">니트</a></h4>
+            <span><a href="#">40000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/995783236244040-30101680-da4b-4578-a398-9a473bcb090c.jpg"
+                    alt="맨투맨"></a>
+            <h4><a href="#">맨투맨</a></h4>
+            <span><a href="#">30000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/995783236244040-30101680-da4b-4578-a398-9a473bcb090c.jpg"
+                    alt="맨투맨"></a>
+            <h4><a href="#">맨투맨</a></h4>
+            <span><a href="#">30000</a></span>
+        </div>
+    </div>
+
+    <!-- 상품 리스트 -->
+
+    <div id="new">
+        <h3>오늘의 상품</h3>
+        <p>새로운 상품을 소개합니다.</p>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail7.coupangcdn.com/thumbnails/remote/320x320ex/image/vendor_inventory/a90b/6ba84a7261f3f8e96d26f978d6a03e314cf6528a1ba9772f91a6e170754a.jpg"
+                    alt="니트"></a>
+            <h4><a href="#">니트</a></h4>
+            <span><a href="#">40000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/995783236244040-30101680-da4b-4578-a398-9a473bcb090c.jpg"
+                    alt="맨투맨"></a>
+            <h4><a href="#">맨투맨</a></h4>
+            <span><a href="#">30000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail7.coupangcdn.com/thumbnails/remote/320x320ex/image/vendor_inventory/a90b/6ba84a7261f3f8e96d26f978d6a03e314cf6528a1ba9772f91a6e170754a.jpg"
+                    alt="니트"></a>
+            <h4><a href="#">니트</a></h4>
+            <span><a href="#">40000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/995783236244040-30101680-da4b-4578-a398-9a473bcb090c.jpg"
+                    alt="맨투맨"></a>
+            <h4><a href="#">맨투맨</a></h4>
+            <span><a href="#">30000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/995783236244040-30101680-da4b-4578-a398-9a473bcb090c.jpg"
+                    alt="맨투맨"></a>
+            <h4><a href="#">맨투맨</a></h4>
+            <span><a href="#">30000</a></span>
+
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail7.coupangcdn.com/thumbnails/remote/320x320ex/image/vendor_inventory/a90b/6ba84a7261f3f8e96d26f978d6a03e314cf6528a1ba9772f91a6e170754a.jpg"
+                    alt="니트"></a>
+            <h4><a href="#">니트</a></h4>
+            <span><a href="#">40000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/995783236244040-30101680-da4b-4578-a398-9a473bcb090c.jpg"
+                    alt="맨투맨"></a>
+            <h4><a href="#">맨투맨</a></h4>
+            <span><a href="#">30000</a></span>
+        </div>
+
+        <div class="product">
+            <a href="#"><img
+                    src="https://thumbnail6.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/995783236244040-30101680-da4b-4578-a398-9a473bcb090c.jpg"
+                    alt="맨투맨"></a>
+            <h4><a href="#">맨투맨</a></h4>
+            <span><a href="#">30000</a></span>
+        </div>
+    </div>
+</body>
+
+</html>
